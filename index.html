@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Retro Black & White</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #000;
+      color: #fff;
+      font-family: 'Courier New', Courier, monospace;
+    }
+
+    header {
+      text-align: center;
+      padding: 2rem 1rem 1rem;
+      border-bottom: 2px solid #fff;
+    }
+
+    h1 {
+      font-size: 3rem;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      margin: 0;
+    }
+
+    nav {
+      margin-top: 1rem;
+      background-color: #111;
+      border-top: 2px solid #fff;
+      border-bottom: 2px solid #fff;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav li {
+      margin: 0;
+    }
+
+    nav a {
+      display: block;
+      padding: 1rem 1.5rem;
+      color: #fff;
+      text-decoration: none;
+      border-right: 1px solid #444;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    nav a:last-child {
+      border-right: none;
+    }
+
+    nav a:hover {
+      background-color: #fff;
+      color: #000;
+    }
+
+    .content {
+      padding: 2rem;
+      max-width: 800px;
+      margin: auto;
+      line-height: 1.6;
+    }
+
+    img, video {
+      width: 100%;
+      max-width: 600px;
+      display: block;
+      margin: 1rem auto;
+      filter: grayscale(100%);
+      border: 3px solid #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      border-top: 2px solid #fff;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Retro Vibes</h1>
+    <p>Fajar Maulana</p>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#perkenalan">Perkenalan</a></li>
+      <li><a href="#foto">Foto</a></li>
+      <li><a href="#video">Video</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <div class="content">
+    <h2 id="perkenalan">Halo, selamat datang!</h2>
+    <p>
+      Saya adalah seorang penggemar desain retro dan suasana klasik. Web ini dibuat sebagai wadah ekspresi dan nostalgia terhadap era hitam putih yang penuh gaya. 
+      Di sini kamu bisa menemukan potret dan video bernuansa jadul, dengan sentuhan minimalis namun bermakna.
+    </p>
+    <p>
+      Semoga kamu menikmati suasana yang kami hadirkan di sini. Jangan lupa untuk tetap menghargai sejarah, karena dari sanalah semua bermula.
+    </p>
+
+    <h2 id="foto">Foto Retro</h2>
+    <img src="pajar.JPEG" alt="Foto retro">
+
+    <h2 id="video">Video Monokrom</h2>
+    <video controls>
+      <source src="pajar.mp4" type="video/mp4">
+      Browser Anda tidak mendukung pemutaran video.
+    </video>
+
+    <h2 id="kontak">Kontak</h2>
+    <p>
+      Ingin terhubung? Kirim email ke <strong>pjarmaulana.com</strong> atau ikuti kami di media sosial bergaya retro!
+    </p>
+  </div>
+
+  <footer>
+    &copy; 2025 Retro Studio | Terinspirasi oleh masa lalu
+  </footer>
+
+</body>
+</html>
